@@ -33,5 +33,5 @@ public class CustomerManager {
         
     public Customer update(Customer customer) {
       return em.merge(customer);  
-    }     
+    }      
 }
