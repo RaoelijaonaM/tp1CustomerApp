@@ -9,7 +9,7 @@
     <h:body>
         <f:view>
             <h:form>
-                <h1><h:outputText value="List"/></h1>
+                <h1><h:outputText value="List des Clients"/></h1>
                 <h:dataTable value="#{customerMBean.customers}" var="item">
                     <h:column>
                         <f:facet name="header">
@@ -75,13 +75,7 @@
                         <f:facet name="header">
                             <h:outputText value="DiscountCode"/>
                         </f:facet>
-                        <h:outputText value="#{item.discountCode}"/>
-                    </h:column>
-                    <h:column>
-                        <f:facet name="header">
-                            <h:outputText value="Zip"/>
-                        </f:facet>
-                        <h:outputText value="#{item.zip}"/>
+                        <h:outputText value="#{item.discountCode.discountCode} : #{item.discountCode.rate} %" />
                     </h:column>
                 </h:dataTable>
             </h:form>
