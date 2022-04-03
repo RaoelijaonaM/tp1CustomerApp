@@ -1,0 +1,11 @@
+mg\mitia\customerapp\managedbeans\CustomerDetailsMBean$1.class
+mg\mitia\customerapp\session\CustomerManager.class
+mg\mitia\customerapp\entities\Customer.class
+mg\mitia\customerapp\managedbeans\CustomerMBean.class
+mg\mitia\customerapp\JakartaRestConfiguration.class
+mg\mitia\customerapp\managedbeans\CustomerDetailsMBean.class
+mg\mitia\customerapp\config\ConfigJSF.class
+mg\mitia\customerapp\session\DiscountCodeManager.class
+mg\mitia\customerapp\resources\JakartaEE8Resource.class
+mg\mitia\customerapp\entities\MicroMarket.class
+mg\mitia\customerapp\entities\DiscountCode.class
